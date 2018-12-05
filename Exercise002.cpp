@@ -5,21 +5,17 @@ void Exercise002::execute()
 	std::vector<int> evenFibNums{};
 	int firstNumber{1}, secondNumber{2};
 	constexpr int limit{4000000};
-	int sum{};
+	int placeholder{};
+	int summedFibNumbers{};
 	while (secondNumber < limit)
 	{
-		sum = firstNumber + secondNumber;
-		if (!(sum & 1))
+		if (!(secondNumber & 1))
 		{
-			evenFibNums.push_back(sum);
+			summedFibNumbers += secondNumber;
 		}
+		placeholder = firstNumber + secondNumber;
 		firstNumber = secondNumber;
-		secondNumber = sum;
-	}
-	int summedFibNumbers{};
-	for (int fibNum : evenFibNums)
-	{
-		summedFibNumbers += fibNum;
+		secondNumber = placeholder;
 	}
 	std::cout << summedFibNumbers << std::endl;
 }
