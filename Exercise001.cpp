@@ -12,6 +12,6 @@ void Exercise001::execute()
 	{
 		multiples.insert(i);
 	}
-	int sum{std::reduce(multiples.begin(), multiples.end())};
+	int sum{std::accumulate(multiples.begin(), multiples.end(), 0)};
 	std::cout << sum << std::endl;
 }

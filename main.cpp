@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Exercise001.hpp"
+#include "Exercise002.hpp"
 
 int getExerciseNumber();
 void executeExercise(int exerciseNumber);
@@ -27,10 +28,13 @@ void executeExercise(int exerciseNumber)
 {
 	switch (exerciseNumber)
 	{
-		case 1:
-			Exercise001::execute();
-			break;
-		default:
-			std::cout << "Here be dragons." << std::endl;
+	case 1:
+		Exercise001::execute();
+		break;
+	case 2:
+		Exercise002::execute();
+		break;
+	default:
+		std::cout << "Here be dragons." << std::endl;
 	}
 }

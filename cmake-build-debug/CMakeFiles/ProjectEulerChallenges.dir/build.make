@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /opt/clion-2018.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /opt/clion-2018.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges
+CMAKE_SOURCE_DIR = /home/ahkrin/CLionProjects/ProjectEulerExercises
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug
+CMAKE_BINARY_DIR = /home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ProjectEulerChallenges.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/ProjectEulerChallenges.dir/flags.make
 
 CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o: CMakeFiles/ProjectEulerChallenges.dir/flags.make
 CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o -c /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o"
+	/usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o -c /home/ahkrin/CLionProjects/ProjectEulerExercises/main.cpp
 
 CMakeFiles/ProjectEulerChallenges.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectEulerChallenges.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/main.cpp > CMakeFiles/ProjectEulerChallenges.dir/main.cpp.i
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahkrin/CLionProjects/ProjectEulerExercises/main.cpp > CMakeFiles/ProjectEulerChallenges.dir/main.cpp.i
 
 CMakeFiles/ProjectEulerChallenges.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectEulerChallenges.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/main.cpp -o CMakeFiles/ProjectEulerChallenges.dir/main.cpp.s
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahkrin/CLionProjects/ProjectEulerExercises/main.cpp -o CMakeFiles/ProjectEulerChallenges.dir/main.cpp.s
 
 CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o: CMakeFiles/ProjectEulerChallenges.dir/flags.make
 CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o: ../Exercise001.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o -c /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o"
+	/usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o -c /home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise001.cpp
 
 CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.cpp > CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.i
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise001.cpp > CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.i
 
 CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.cpp -o CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.s
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise001.cpp -o CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.s
 
 CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o: CMakeFiles/ProjectEulerChallenges.dir/flags.make
 CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o: ../Exercise002.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o -c /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise002.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o"
+	/usr/bin/clang++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o -c /home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise002.cpp
 
 CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise002.cpp > CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.i
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise002.cpp > CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.i
 
 CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise002.cpp -o CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.s
+	/usr/bin/clang++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise002.cpp -o CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.s
 
 # Object files for target ProjectEulerChallenges
 ProjectEulerChallenges_OBJECTS = \
@@ -110,7 +110,7 @@ ProjectEulerChallenges: CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o
 ProjectEulerChallenges: CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o
 ProjectEulerChallenges: CMakeFiles/ProjectEulerChallenges.dir/build.make
 ProjectEulerChallenges: CMakeFiles/ProjectEulerChallenges.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProjectEulerChallenges"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ProjectEulerChallenges"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ProjectEulerChallenges.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/ProjectEulerChallenges.dir/clean:
 .PHONY : CMakeFiles/ProjectEulerChallenges.dir/clean
 
 CMakeFiles/ProjectEulerChallenges.dir/depend:
-	cd /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug /Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahkrin/CLionProjects/ProjectEulerExercises /home/ahkrin/CLionProjects/ProjectEulerExercises /home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug /home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug /home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ProjectEulerChallenges.dir/depend
 

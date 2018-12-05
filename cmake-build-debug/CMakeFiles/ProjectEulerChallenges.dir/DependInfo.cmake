@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.cpp" "/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o"
-  "/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise002.cpp" "/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o"
-  "/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/main.cpp" "/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o"
+  "/home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise001.cpp" "/home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o"
+  "/home/ahkrin/CLionProjects/ProjectEulerExercises/Exercise002.cpp" "/home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o"
+  "/home/ahkrin/CLionProjects/ProjectEulerExercises/main.cpp" "/home/ahkrin/CLionProjects/ProjectEulerExercises/cmake-build-debug/CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

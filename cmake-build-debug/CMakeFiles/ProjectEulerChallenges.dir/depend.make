@@ -4,6 +4,10 @@
 CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o: ../Exercise001.cpp
 CMakeFiles/ProjectEulerChallenges.dir/Exercise001.cpp.o: ../Exercise001.hpp
 
+CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o: ../Exercise002.cpp
+CMakeFiles/ProjectEulerChallenges.dir/Exercise002.cpp.o: ../Exercise002.hpp
+
 CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o: ../Exercise001.hpp
+CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o: ../Exercise002.hpp
 CMakeFiles/ProjectEulerChallenges.dir/main.cpp.o: ../main.cpp
 

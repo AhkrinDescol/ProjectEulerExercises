@@ -16,5 +16,10 @@ void Exercise002::execute()
 		firstNumber = secondNumber;
 		secondNumber = sum;
 	}
-	for ()
+	int summedFibNumbers{};
+	for (int fibNum : evenFibNums)
+	{
+		summedFibNumbers += fibNum;
+	}
+	std::cout << summedFibNumbers << std::endl;
 }
