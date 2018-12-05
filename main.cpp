@@ -18,7 +18,7 @@ int getExerciseNumber()
 	int exerciseNumber{};
 	while (exerciseNumber <= 0 || exerciseNumber > exercisesCompleted)
 	{
-		std::cout << "Enter the exercise number to execute:";
+		std::cout << "Enter the exercise number to execute: ";
 		std::cin >> exerciseNumber;
 	}
 	return exerciseNumber;
