@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.cpp
+Exercise001.hpp
+/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.hpp
+
+/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.hpp
+iostream
+-
+set
+-
+numeric
+-
+
+/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/main.cpp
+iostream
+-
+Exercise001.hpp
+/Users/ahkrindescol/Documents/Workspace/CLion/ProjectEulerChallenges/Exercise001.hpp
+
