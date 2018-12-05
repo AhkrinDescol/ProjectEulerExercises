@@ -14,7 +14,7 @@ int main()
 
 int getExerciseNumber()
 {
-	constexpr int exercisesCompleted{1};
+	constexpr int exercisesCompleted{2};
 	int exerciseNumber{};
 	while (exerciseNumber <= 0 || exerciseNumber > exercisesCompleted)
 	{
