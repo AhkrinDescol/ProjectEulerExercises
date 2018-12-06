@@ -14,9 +14,9 @@ int main()
 
 int getExerciseNumber()
 {
-	constexpr int exercisesCompleted{2};
+	constexpr int exercisesAttempted{3};
 	int exerciseNumber{};
-	while (exerciseNumber <= 0 || exerciseNumber > exercisesCompleted)
+	while (exerciseNumber <= 0 || exerciseNumber > exercisesAttempted)
 	{
 		std::cout << "Enter the exercise number to execute: ";
 		std::cin >> exerciseNumber;
