@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Exercise001.hpp"
 #include "Exercise002.hpp"
+#include "Exercise003.hpp"
 
 int getExerciseNumber();
 void executeExercise(int exerciseNumber);
@@ -33,6 +34,9 @@ void executeExercise(int exerciseNumber)
 		break;
 	case 2:
 		Exercise002::execute();
+		break;
+	case 3:
+		Exercise003::execute();
 		break;
 	default:
 		std::cout << "Here be dragons." << std::endl;
